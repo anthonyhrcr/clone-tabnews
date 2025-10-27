@@ -1,5 +1,5 @@
 function Home() {
-    return <h1>Online, Berereu?
+    return <h1>Online, Bororoba?
     </h1>
 }
 
