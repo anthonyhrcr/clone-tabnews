@@ -1,5 +1,5 @@
 function Home() {
-    return <h1>e ai bumbum guloso, ta podendo falar?
+    return <h1>e ai bumbum guloso, ta podendo falar? ;P
     </h1>
 }
 
