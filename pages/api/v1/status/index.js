@@ -24,9 +24,9 @@ async function status(request, response) {
         opened_connections: Number(openedConnectionsValue.rows[0].count),
       },
     });
-  } catch (err) {
-    console.error("Erro no /status:", err);
-    response.status(500).json({ error: err.message });
+  } catch (error) {
+    console.error("Erro no /status:", error);
+    response.status(500).json({ error: error.message });
   }
 }
 
